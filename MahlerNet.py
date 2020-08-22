@@ -10,7 +10,7 @@ import math, time, sys, copy
 from utilities import print_divider
 
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3' 
-tf.logging.set_verbosity(tf.logging.FATAL) # can use DEBUG, INFO, WARN, ERROR, FATAL
+tf.compat.v1.logging.set_verbosity(tf.compat.v1.logging.ERROR) # can use DEBUG, INFO, WARN, ERROR, FATAL
 np.set_printoptions(threshold = sys.maxsize, precision = 30)
 
 class MahlerNet:
