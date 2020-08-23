@@ -8,7 +8,7 @@
 	"use_randomness": True, 							# for reproducibility
 	"use_gpu": True, 									# allow the use of a gpu, if there is one
 	"verbose": 1,										# 0 means no more printouts than training progress, 1 means basic output, 2 means verbose output (not fully functional)
-	"batch_sz" : 256,
+	"batch_sz" : 128,
 	"epochs" : 50,									
 	"learning_rate" : 0.001,
 	"batch_norm": True,									# whether to apply batch normalization to all feed forward layers (including output layers)
